@@ -1,0 +1,317 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(./photo\ city.jpg);
+    background-size: cover;
+    background-position:center ;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    height: calc(vh - 6em);
+    box-sizing: border-box;
+overflow-x: hidden;
+    
+}
+p{margin: 10px;}
+
+footer{
+    bottom: 0;
+    background-color:darkorchid;
+    text-align: center;
+    position: sticky;
+    height:3em;
+    
+    box-sizing: border-box;
+    
+}
+
+
+    .menu-bar{
+
+        width: 100%;
+    display: inline-block;
+   
+    height: 3em;
+   
+    background-color:coral;
+    text-align: left;
+    position: relative;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.menu-bar ul{
+    display: inline-block;
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: right;
+}
+
+.menu-bar ul li{
+    margin: 10px;
+    padding: 7px 6px;
+    display: inline-block;
+    
+}
+@media screen and ( max-width: 700px){
+    .menu-bar ul li{
+        display: block;
+        margin:1px;
+        background-size: auto;
+        background-color:green;
+    }   
+    form{width: 80%;
+        background-color: hotpink;
+        margin-left: 10px;
+        padding: 5px;
+        
+        border-radius: 50px;
+    }
+    label{width: 20%;
+        text-align: left;
+        margin: 3px;
+        font-size: 3px;
+    }
+    legend,input,textarea{
+        width: 30%;
+        font-size: 2px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+    ::placeholder{
+        width: 100%;
+        font-size: 13px;
+    }
+  
+}
+@media screen and ( max-width: 350px){
+    .menu-bar ul li{
+        display: block;
+        margin:0px;
+        background-color:rgb(6, 128, 0);
+    }   
+  
+}
+@media screen and ( max-width: 200px){
+    .menu-bar ul {
+        display: block;
+        margin:0px;
+        background-size: auto;
+        background-color:green;
+    }   
+  
+}
+@media screen and ( max-width: 200px){
+    .menu-bar {
+        display: block;
+        margin:1px;
+        background-color:green;
+        position: relative;
+        top: 0;
+    }   
+  
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+}
+.activ, .menu-bar ul li a:hover{
+    background-color: chartreuse;
+border-radius: 3px;
+display: flex;
+justify-content: space-between;
+}
+.sub-menu1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu1{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    background-color: darkgreen;
+    margin-top: 5px;
+    margin-left: -1px;
+    border-radius: 30px;
+}
+.menu-bar ul li:hover .sub-menu1 ul{
+    display: block;
+    justify-content: space-between;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu1 ul li{
+    
+    padding: 10px;
+    border-radius: 25px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    text-align: left;
+  
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color: blue;
+    background-color: azure;
+    font-style: italic;
+    border-radius: 90px;
+    text-shadow: 2px 2px 5px red;
+}
+ .first-header{
+    font-weight: bold;
+    font-size: 80px; 
+}
+.city-body{
+    height: calc(vh - 6em);
+    background-color: aliceblue;
+    background-image: none;
+}
+h2,p,details{
+    background-image: none;
+    background-color: aquamarine;
+}
+.photo,figcaption{
+    float: right;
+}
+.demo{
+    font-size: 50px;
+    color:green;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 2px 2px 5px yellow;
+
+}
+table,tr,th,td{
+    width: 600px;
+    height: 40px;
+    text-align: center;
+    background-color: chartreuse;
+    border: 2px solid blue;
+    border-collapse: collapse;
+    margin:auto;
+}
+.overflow{
+        width: 1500px;
+        height: 300px;
+        overflow:scroll;
+        background-color: darkorange;
+        margin-left:85px;  
+}
+iframe{
+    margin-left:50px;
+}
+
+.airport{
+    color: yellow;
+   
+    
+    background-color: chartreuse;
+    text-indent: 19px;
+    text-decoration:darkmagenta;
+    color: indigo;
+    text-shadow: 5px 2px springgreen;
+}
+form{
+    background-color: hotpink;
+    margin-left: 60px;
+    padding: 10px;
+    margin-right: 80px;
+    border-radius: 50px;
+}
+label{
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+}
+legend,input,textarea{
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 20px;
+}
+.pic-1{
+    float: right;
+    width: 50%;
+    height: 20%;
+}
+.lake-chamo{
+    color:fuchsia;
+    padding: 60px;
+    text-decoration: dashed rebeccapurple;
+    font-style: italic; 
+}
+.lakechamo{
+    color: crimson;
+    font-weight: bold;
+    font-size: 30px;
+}
+ .selam{
+     background-color: yellow;
+     font-style: italic;
+     text-indent: 60px;
+     text-align: center;
+ }   
+    #park{
+        color: green ;
+        font-style: italic;
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow:2px px  red;
+    }
+    .tour{
+        margin: 50px;
+        padding: 15px;
+    }
+@media only screen and (max-width:700px) {
+  .photo {
+        font-size: 3px;
+        font-weight: normal;
+    }
+}
+.img1{
+    box-sizing: border-box;
+    background-size: cover;
+    width: 80%;
+    height: 250px;
+    position: relative;
+    top: 10px;
+    left: 8%;
+    display: flex;
+    text-align: center;
+z-index: 0;
+    margin-left: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s transform;
+}
+.col {
+    display: flex;
+    background-color: rgb(150, 127, 255);
+}
+.img1 p{
+margin: 2px 10px;
+padding-top: 2.5px;
+border-radius: 10px;
+font-size: 15px;
+width: 95%;
+height: 20px;
+background-color: rgba(72,63,63,0.7);
+}
+.img1:hover{
+    transform: translateY(-10px);
+}
+.para{
+   z-index: index 1; 
+   text-align: center;
+   text-decoration: none;
+   color: red;
+}
+.emo{
+    font-size: 50px;
+    color:green;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 2px 2px 5px yellow;
+background-color: wheat;
+}
